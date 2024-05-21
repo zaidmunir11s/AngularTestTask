@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+/* styles.css or styles.scss */
+/* Globally */
+@font-face {
+  font-family: 'AvenirNextforINTUIT-Regular';
+  src: url('../src/assets/fonts/avenir_font/AvenirNextforINTUIT-Regular.otf') format('opentype');
+}
+
+
+@font-face {
+  font-family: 'AvenirNextforINTUIT-Medium';
+  src: url('../src/assets/fonts/avenir_font/AvenirNextforINTUIT-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'AvenirNextforINTUIT-Bold';
+  src: url('../src/assets/fonts/avenir_font/AvenirNextforINTUIT-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'AvenirNextforINTUIT-Demi';
+  src: url('../src/assets/fonts/avenir_font/AvenirNextforINTUIT-Demi.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'AvenirNextforINTUIT-Heavy';
+  src: url('../src/assets/fonts/avenir_font/AvenirNextforINTUIT-Heavy.otf') format('opentype');
+}

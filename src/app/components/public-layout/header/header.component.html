@@ -1,0 +1,38 @@
+<div class="container-fluid mainDiv">
+  <div class="row">
+    <div class="col-3">
+      <div class="row">
+        <div class="col-6 logoDiv">
+          <img
+            class="logoImage"
+            src="../../../../assets/images/logo.svg"
+            alt=""
+          />
+        </div>
+        <div class="col-6 textDiv">
+          <img
+            class="logotext"
+            src="../../../../assets/images/Test.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="col-6 navDiv">
+      <div class="row">
+        <div class="col-2 nav" [routerLink]="['/']" routerLinkActive="router-link-active"  [ngClass]="{ active: true }">Home</div>
+        <div class="col-2 nav" [routerLink]="['/about']" routerLinkActive="router-link-active" >About</div>
+        <div class="col-2 nav" [routerLink]="['/price']" routerLinkActive="router-link-active" >Pricing</div>
+        <div class="col-2 nav">Videos</div>
+        <div class="col-2 nav">Testimonials</div>
+        <div class="col-2 nav">Contact</div>
+      </div>
+    </div>
+    <div class="col-3 navDiv2">
+      <button class="btn btn-login">login</button>
+      <button class="btn btn-register">
+        Register <img src="../../../../assets/images/Polygon.svg" alt="" />
+      </button>
+    </div>
+  </div>
+</div>
